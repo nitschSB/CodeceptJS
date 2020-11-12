@@ -9,6 +9,7 @@ Duplicate test names can cause `codeceptjs run-workers` to not function. See #26
 Bug Fixes:
   *  --suites flag now should function correctly for `codeceptjs run-workers`. See #2655 by @Georgegriff
   * [autoLogin plugin] Login methods should now function as expected with `codeceptjs run-workers`. See #2658 by @Georgegriff, resolves #2620
+  * Always the latest retry options are taken into account. See #2668 by @nitschSB
   
 
 
